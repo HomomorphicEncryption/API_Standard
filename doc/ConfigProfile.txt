@@ -1,0 +1,29 @@
+{
+	"Security": {
+		"TableID": "HEStd_128_classic",
+		"SKDistrib": "ternary",
+		"Dimension": "4096",
+		"ErrorDistribParm": "3.19"
+	},
+	"Scheme": {
+		"ID": "BFV",
+		"Parms": {
+			"PlaintextModulus": "65537",
+			"Mode": "Asymmetric"
+		}
+	},
+	"Libraries": {
+		"PALISADE": {
+			"Version": "1.2.0",
+			"Configuration": {}
+		},
+		"SEAL": {
+			"Version": "3.0",
+			"Configuration": {}
+		},
+		"TFHE": {
+			"Version": "3.0",
+			"Configuration": {}
+		}
+	}
+}
